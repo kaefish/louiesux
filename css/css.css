@@ -39,3 +39,8 @@ img{
       -moz-animation:spin 3s linear infinite;
             animation:spin 3s linear infinite;
   }
+
+.bold{
+    font-weight: 800;
+    padding-bottom: 30px;
+}
