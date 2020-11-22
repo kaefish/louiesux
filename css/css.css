@@ -1,0 +1,41 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+    background-color: red;
+    color: white;
+  }
+p{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.title{
+    font-weight: 1000;
+    font-size: 100px;
+    color: black;
+}
+
+@-webkit-keyframes spin{
+    100% { -webkit-transform: rotate(360deg); }
+  
+  }
+  
+  @keyframes spin{
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+  }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation:spin 3s linear infinite;
+      -moz-animation:spin 3s linear infinite;
+            animation:spin 3s linear infinite;
+  }
